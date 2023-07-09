@@ -4,24 +4,24 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.grace.motleysmusicdiscs.MotleysMusicDiscs;
+import net.grace.motleysmusicdiscs.sound.ModSounds;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.item.Items;
+import net.minecraft.item.MusicDiscItem;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.Rarity;
 
 import java.util.IdentityHashMap;
 
 public class ModItems {
-    public static final Item RUBY = registerItem("ruby", new Item(new FabricItemSettings()));
-    public static final Item RAW_RUBY = registerItem("raw_ruby", new Item(new FabricItemSettings()));
 
-    private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
-        entries.add(RUBY);
-        entries.add(RAW_RUBY);
+    public static final Item ALLEYESONME_MUSICDISC = registerItem("alleyesonme_musicdisc",
+            new MusicDiscItem(9, ModSounds.ALLEYESONME, new FabricItemSettings().maxCount(1).rarity(Rarity.RARE), 216));
 
-    }
+
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(MotleysMusicDiscs.MOD_ID, name), item);
@@ -29,6 +29,5 @@ public class ModItems {
     public static void registerModItems() {
         MotleysMusicDiscs.LOGGER.info("Registering Mod Items for " + MotleysMusicDiscs.MOD_ID);
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientItemGroup);
     }
 }

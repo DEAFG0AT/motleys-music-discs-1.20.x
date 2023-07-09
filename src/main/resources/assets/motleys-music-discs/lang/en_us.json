@@ -1,6 +1,7 @@
 {
-  "item.motleys-music-discs.ruby": "Ruby",
-  "item.motleys-music-discs.raw_ruby": "Raw Ruby",
+  "item.motleys-music-discs.alleyesonme_musicdisc": "Music Disc",
+  "item.motleys-music-discs.alleyesonme_musicdisc.desc": "All Eyes On Me - Bo Burnham",
 
-  "itemgroup.ruby": "Ruby Test Group"
+  "itemgroup.disc_group": "Motley's Music Discs"
+
 }

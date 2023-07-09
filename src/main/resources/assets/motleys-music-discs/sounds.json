@@ -1,0 +1,10 @@
+{
+  "alleyesonme": {
+    "sounds": [
+      {
+        "name": "motleys-music-discs:alleyesonme",
+        "stream": true
+      }
+    ]
+  }
+}
