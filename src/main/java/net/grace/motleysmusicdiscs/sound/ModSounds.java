@@ -12,6 +12,9 @@ public class ModSounds {
     public static final SoundEvent ALLEYESONME = registerSoundEvent("alleyesonme");
     public static final SoundEvent KOKOMO = registerSoundEvent("kokomo");
     public static final SoundEvent UNDERPRESSURE = registerSoundEvent("underpressure");
+    public static final SoundEvent BUTTERCUP = registerSoundEvent("buttercup");
+    public static final SoundEvent WAP = registerSoundEvent("wap");
+    public static final SoundEvent BODIES = registerSoundEvent("bodies");
 
 
 

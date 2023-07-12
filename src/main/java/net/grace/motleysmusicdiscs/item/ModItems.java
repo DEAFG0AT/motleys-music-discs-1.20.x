@@ -24,6 +24,12 @@ public class ModItems {
             new MusicDiscItem(9, ModSounds.KOKOMO, new FabricItemSettings().maxCount(1).rarity(Rarity.RARE), 214));
     public static final Item UNDERPRESSURE_MUSICDISC = registerItem("underpressure_musicdisc",
             new MusicDiscItem(9, ModSounds.UNDERPRESSURE, new FabricItemSettings().maxCount(1).rarity(Rarity.RARE), 243));
+    public static final Item BUTTERCUP_MUSICDISC = registerItem("buttercup_musicdisc",
+            new MusicDiscItem(9, ModSounds.BUTTERCUP, new FabricItemSettings().maxCount(1).rarity(Rarity.RARE), 201));
+    public static final Item WAP_MUSICDISC = registerItem("wap_musicdisc",
+            new MusicDiscItem(9, ModSounds.WAP, new FabricItemSettings().maxCount(1).rarity(Rarity.RARE), 188));
+    public static final Item BODIES_MUSICDISC = registerItem("bodies_musicdisc",
+            new MusicDiscItem(9, ModSounds.BODIES, new FabricItemSettings().maxCount(1).rarity(Rarity.RARE), 200));
 
 
 

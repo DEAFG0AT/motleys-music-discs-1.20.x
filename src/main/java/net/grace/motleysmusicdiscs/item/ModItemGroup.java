@@ -17,6 +17,9 @@ public class ModItemGroup {
                         entries.add(ModItems.ALLEYESONME_MUSICDISC);
                         entries.add(ModItems.KOKOMO_MUSICDISC);
                         entries.add(ModItems.UNDERPRESSURE_MUSICDISC);
+                        entries.add(ModItems.BUTTERCUP_MUSICDISC);
+                        entries.add(ModItems.WAP_MUSICDISC);
+                        entries.add(ModItems.BODIES_MUSICDISC);
 
                     }).build());
 

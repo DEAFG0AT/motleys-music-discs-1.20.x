@@ -23,5 +23,8 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.ALLEYESONME_MUSICDISC, Models.GENERATED);
         itemModelGenerator.register(ModItems.KOKOMO_MUSICDISC, Models.GENERATED);
         itemModelGenerator.register(ModItems.UNDERPRESSURE_MUSICDISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BUTTERCUP_MUSICDISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.WAP_MUSICDISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BODIES_MUSICDISC, Models.GENERATED);
     }
 }

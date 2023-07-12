@@ -4,6 +4,7 @@ import io.netty.util.concurrent.CompleteFuture;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.grace.motleysmusicdiscs.item.ModItems;
+import net.grace.motleysmusicdiscs.sound.ModSounds;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.ItemTags;
 
@@ -19,6 +20,6 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
     @Override
     protected void configure(RegistryWrapper.WrapperLookup arg) {
         getOrCreateTagBuilder(ItemTags.MUSIC_DISCS)
-                .add(ModItems.ALLEYESONME_MUSICDISC, ModItems.KOKOMO_MUSICDISC, ModItems.UNDERPRESSURE_MUSICDISC);
+                .add(ModItems.ALLEYESONME_MUSICDISC, ModItems.KOKOMO_MUSICDISC, ModItems.UNDERPRESSURE_MUSICDISC, ModItems.BUTTERCUP_MUSICDISC, ModItems.WAP_MUSICDISC, ModItems.BODIES_MUSICDISC);
     }
 }

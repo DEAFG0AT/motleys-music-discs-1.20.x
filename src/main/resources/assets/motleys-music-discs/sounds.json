@@ -22,5 +22,29 @@
         "stream": true
       }
     ]
+  },
+  "buttercup": {
+    "sounds": [
+      {
+        "name": "motleys-music-discs:buttercup",
+        "stream": true
+      }
+    ]
+  },
+  "wap": {
+    "sounds": [
+      {
+        "name": "motleys-music-discs:wap",
+        "stream": true
+      }
+    ]
+  },
+  "bodies": {
+    "sounds": [
+      {
+        "name": "motleys-music-discs:bodies",
+        "stream": true
+      }
+    ]
   }
 }
