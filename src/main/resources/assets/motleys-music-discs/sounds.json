@@ -6,5 +6,21 @@
         "stream": true
       }
     ]
+  },
+  "kokomo": {
+    "sounds": [
+      {
+        "name": "motleys-music-discs:kokomo",
+        "stream": true
+      }
+    ]
+  },
+  "underpressure": {
+    "sounds": [
+      {
+        "name": "motleys-music-discs:underpressure",
+        "stream": true
+      }
+    ]
   }
 }

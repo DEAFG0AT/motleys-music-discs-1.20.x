@@ -20,6 +20,10 @@ public class ModItems {
 
     public static final Item ALLEYESONME_MUSICDISC = registerItem("alleyesonme_musicdisc",
             new MusicDiscItem(9, ModSounds.ALLEYESONME, new FabricItemSettings().maxCount(1).rarity(Rarity.RARE), 216));
+    public static final Item KOKOMO_MUSICDISC = registerItem("kokomo_musicdisc",
+            new MusicDiscItem(9, ModSounds.KOKOMO, new FabricItemSettings().maxCount(1).rarity(Rarity.RARE), 214));
+    public static final Item UNDERPRESSURE_MUSICDISC = registerItem("underpressure_musicdisc",
+            new MusicDiscItem(9, ModSounds.UNDERPRESSURE, new FabricItemSettings().maxCount(1).rarity(Rarity.RARE), 243));
 
 
 

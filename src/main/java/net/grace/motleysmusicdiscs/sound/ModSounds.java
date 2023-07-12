@@ -10,6 +10,8 @@ import net.minecraft.util.Identifier;
 public class ModSounds {
 
     public static final SoundEvent ALLEYESONME = registerSoundEvent("alleyesonme");
+    public static final SoundEvent KOKOMO = registerSoundEvent("kokomo");
+    public static final SoundEvent UNDERPRESSURE = registerSoundEvent("underpressure");
 
 
 

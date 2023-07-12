@@ -15,6 +15,8 @@ public class ModItemGroup {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.disc_group"))
                     .icon(() -> new ItemStack(ModItems.ALLEYESONME_MUSICDISC)).entries((displayContext, entries) -> {
                         entries.add(ModItems.ALLEYESONME_MUSICDISC);
+                        entries.add(ModItems.KOKOMO_MUSICDISC);
+                        entries.add(ModItems.UNDERPRESSURE_MUSICDISC);
 
                     }).build());
 
