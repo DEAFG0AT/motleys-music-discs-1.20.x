@@ -46,5 +46,29 @@
         "stream": true
       }
     ]
+  },
+  "heartofglass": {
+    "sounds": [
+      {
+        "name": "motleys-music-discs:heartofglass",
+        "stream": true
+      }
+    ]
+  },
+  "everybody": {
+    "sounds": [
+      {
+        "name": "motleys-music-discs:everybody",
+        "stream": true
+      }
+    ]
+  },
+  "allstar": {
+    "sounds": [
+      {
+        "name": "motleys-music-discs:allstar",
+        "stream": true
+      }
+    ]
   }
 }

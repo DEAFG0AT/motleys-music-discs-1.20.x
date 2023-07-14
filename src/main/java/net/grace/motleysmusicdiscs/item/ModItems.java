@@ -19,7 +19,7 @@ import java.util.IdentityHashMap;
 public class ModItems {
 
     public static final Item ALLEYESONME_MUSICDISC = registerItem("alleyesonme_musicdisc",
-            new MusicDiscItem(9, ModSounds.ALLEYESONME, new FabricItemSettings().maxCount(1).rarity(Rarity.RARE), 216));
+            new MusicDiscItem(9, ModSounds.ALLEYESONME, new FabricItemSettings().maxCount(1).rarity(Rarity.RARE), 217));
     public static final Item KOKOMO_MUSICDISC = registerItem("kokomo_musicdisc",
             new MusicDiscItem(9, ModSounds.KOKOMO, new FabricItemSettings().maxCount(1).rarity(Rarity.RARE), 214));
     public static final Item UNDERPRESSURE_MUSICDISC = registerItem("underpressure_musicdisc",
@@ -30,6 +30,12 @@ public class ModItems {
             new MusicDiscItem(9, ModSounds.WAP, new FabricItemSettings().maxCount(1).rarity(Rarity.RARE), 188));
     public static final Item BODIES_MUSICDISC = registerItem("bodies_musicdisc",
             new MusicDiscItem(9, ModSounds.BODIES, new FabricItemSettings().maxCount(1).rarity(Rarity.RARE), 200));
+    public static final Item HEARTOFGLASS_MUSICDISC = registerItem("heartofglass_musicdisc",
+            new MusicDiscItem(9, ModSounds.HEARTOFGLASS, new FabricItemSettings().maxCount(1).rarity(Rarity.RARE), 202));
+    public static final Item EVERYBODY_MUSICDISC = registerItem("everybody_musicdisc",
+            new MusicDiscItem(9, ModSounds.EVERYBODY, new FabricItemSettings().maxCount(1).rarity(Rarity.RARE), 223));
+    public static final Item ALLSTAR_MUSICDISC = registerItem("allstar_musicdisc",
+            new MusicDiscItem(9, ModSounds.ALLSTAR, new FabricItemSettings().maxCount(1).rarity(Rarity.RARE), 223));
 
 
 

@@ -20,6 +20,9 @@ public class ModItemGroup {
                         entries.add(ModItems.BUTTERCUP_MUSICDISC);
                         entries.add(ModItems.WAP_MUSICDISC);
                         entries.add(ModItems.BODIES_MUSICDISC);
+                        entries.add(ModItems.HEARTOFGLASS_MUSICDISC);
+                        entries.add(ModItems.EVERYBODY_MUSICDISC);
+                        entries.add(ModItems.ALLSTAR_MUSICDISC);
 
                     }).build());
 

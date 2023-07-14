@@ -15,6 +15,9 @@ public class ModSounds {
     public static final SoundEvent BUTTERCUP = registerSoundEvent("buttercup");
     public static final SoundEvent WAP = registerSoundEvent("wap");
     public static final SoundEvent BODIES = registerSoundEvent("bodies");
+    public static final SoundEvent HEARTOFGLASS = registerSoundEvent("heartofglass");
+    public static final SoundEvent EVERYBODY = registerSoundEvent("everybody");
+    public static final SoundEvent ALLSTAR = registerSoundEvent("allstar");
 
 
 
